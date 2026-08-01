@@ -7,19 +7,6 @@ The workbook automates billing processes while providing clear visibility into o
 
 ---
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Business Problem](#business-problem)
-- [Features](#features)
-- [Skills Demonstrated](#skills-demonstrated)
-- [Business Benefits](#business-benefits)
-- [Repository Contents](#repository-contents)
-- [Future Enhancements](#future-enhancements)
-- [Author](#author)
-
----
-
 ## Overview
 
 Managing customer invoices across multiple spreadsheets or manual processes can make it difficult to monitor payments, track balances, and produce accurate accounts receivable reports.
