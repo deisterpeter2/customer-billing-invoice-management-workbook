@@ -142,9 +142,3 @@ Customer-Billing-Invoice-Management/
 
 ---
 
-## Author
-
-**Peter Deister**
-
-This project demonstrates Microsoft Excel automation, customer billing, accounts receivable management, dashboard reporting, and business process improvement skills applicable to billing, accounting, finance, administrative, customer service, and office support roles.
-````
