@@ -1,159 +1,155 @@
-```markdown
+````markdown
 # Customer Billing & Invoice Management Workbook
 
-An Excel-based billing solution that streamlines customer invoicing, payment tracking, account balances, and accounts receivable management. The workbook automates invoice calculations, tracks outstanding balances, and provides visibility into customer payment status through dashboards and reports.
+An Excel-based solution that streamlines customer billing, invoice tracking, payment processing, and accounts receivable reporting for small businesses.
+
+The workbook automates billing processes while providing clear visibility into outstanding balances, customer payment history, and aging information through interactive dashboards and reports.
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Business Problem](#business-problem)
+- [Features](#features)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Business Benefits](#business-benefits)
+- [Repository Contents](#repository-contents)
+- [Future Enhancements](#future-enhancements)
+- [Author](#author)
 
 ---
 
 ## Overview
 
-Managing customer invoices manually can lead to billing errors, duplicate invoices, overdue payments, and inaccurate customer balances. This workbook demonstrates how Microsoft Excel can automate key billing processes while providing an organized system for managing customer accounts.
+Managing customer invoices across multiple spreadsheets or manual processes can make it difficult to monitor payments, track balances, and produce accurate accounts receivable reports.
 
-Designed for small businesses and office environments that need an efficient solution for billing and accounts receivable management.
+This workbook consolidates customer billing activities into a single Excel solution that simplifies invoice management and improves visibility into customer payment activity.
+
+---
+
+## Business Problem
+
+Many small businesses struggle to:
+
+- Create and track customer invoices
+- Monitor customer account balances
+- Record customer payments accurately
+- Identify overdue invoices
+- Produce accounts receivable reports
+- Analyze payment trends
+
+This workbook centralizes these activities into one organized and easy-to-use system.
 
 ---
 
 ## Features
 
-- Maintain customer records
-- Create customer invoices
+### Customer Management
+
+- Customer database
+- Customer IDs
+- Contact information
+- Payment terms
+
+### Invoice Management
+
+- Record customer invoices
 - Track invoice status
-- Record customer payments
 - Calculate customer balances
-- Monitor overdue invoices
-- Display accounts receivable aging
-- Reduce data entry errors using data validation
-- Highlight overdue invoices with conditional formatting
+- Monitor invoice history
 
----
+### Payment Tracking
 
-## Skills Demonstrated
+- Record customer payments
+- Apply payments to invoices
+- Track partial payments
+- Monitor outstanding balances
 
-- Microsoft Excel
-- Advanced Formulas
-- XLOOKUP
-- SUMIFS
-- COUNTIFS
-- IF Statements
-- Data Validation
-- Conditional Formatting
-- Structured Tables
-- Accounts Receivable
-- Customer Billing
-- Business Process Automation
-- Business Process Improvement
+### Accounts Receivable Aging
 
----
+Automatically categorizes outstanding balances into:
 
-## Workbook Structure
-
-### Customers
-
-Maintains customer information.
-
-| Column | Description |
-|---------|-------------|
-| Customer ID | Unique customer identifier |
-| Customer Name | Customer name |
-| Contact | Primary contact |
-| Phone | Contact phone number |
-| Email | Customer email |
-| Status | Active / Inactive |
-
----
-
-### Invoices
-
-Tracks customer invoices.
-
-| Field | Description |
-|-------|-------------|
-| Invoice Number | Unique invoice identifier |
-| Invoice Date | Billing date |
-| Customer | Customer name |
-| Due Date | Payment due date |
-| Invoice Amount | Amount billed |
-| Amount Paid | Payments received |
-| Balance Due | Remaining balance |
-| Status | Open, Partial, Paid, Overdue |
-
----
-
-### Payments
-
-Records customer payments.
-
-| Field | Description |
-|-------|-------------|
-| Payment Date | Date received |
-| Customer | Customer making payment |
-| Invoice Number | Invoice being paid |
-| Payment Amount | Amount received |
-| Payment Method | Check, Cash, Credit Card, ACH |
-| Remaining Balance | Updated automatically |
-
----
+- Current
+- 1–30 Days
+- 31–60 Days
+- 61–90 Days
+- Over 90 Days
 
 ### Dashboard
 
-Provides an overview of billing activity including:
+Interactive dashboard displaying:
 
-- Total Customers
-- Total Invoices
-- Outstanding Accounts Receivable
-- Payments Received
-- Overdue Invoices
-- Current Accounts Receivable Aging
-
----
-
-## Business Value
-
-This workbook demonstrates how Excel can improve billing operations by:
-
-- Automating invoice tracking
-- Reducing billing errors
-- Monitoring customer balances
-- Improving payment visibility
-- Identifying overdue invoices
-- Supporting collections activities
-- Saving time through automation
+- Total Accounts Receivable
+- Outstanding Invoices
+- Overdue Balances
+- Monthly Collections
+- Customer Balances
+- Payment Trends
 
 ---
+## Screenshots
 
-## Technologies Used
+### Dashboard
+![Dashboard](images/dashboard.jpg)
+
+### Customer Records
+![Customers](images/customers.jpg)
+
+### Invoice Tracking
+![Invoices](images/invoices.jpg)
+
+---
+## Skills Demonstrated
 
 - Microsoft Excel
-- Excel Tables
+- Power Query
+- PivotTables
+- Pivot Charts
 - XLOOKUP
 - SUMIFS
-- COUNTIFS
-- IF Functions
-- Data Validation
 - Conditional Formatting
+- Data Validation
+- Dashboard Design
+- Business Process Analysis
 
 ---
 
-## Example Workflow
+## Business Benefits
 
-1. Add customer information.
-2. Create a new purchase order.
-2. Create a new invoice.
-3. Record customer payments.
-4. Monitor outstanding balances.
-5. Review overdue invoices.
-6. Use the dashboard to track accounts receivable performance.
+- Centralizes customer billing information
+- Improves payment tracking
+- Reduces manual reconciliation
+- Supports faster collections
+- Improves reporting accuracy
+- Provides visibility into customer payment activity
+
+---
+
+## Repository Contents
+
+```
+Customer-Billing-Invoice-Management/
+│
+├── README.md
+├── Billing System.xlsx
+│
+├── images/
+│   ├── dashboard.jpg
+│   ├── invoices.jpg
+│   ├── purchase-orders.jpg
+│   └── payments.jpg
+```
 
 ---
 
 ## Future Enhancements
 
-- Automatic invoice generation using VBA
-- Email-ready invoice templates
-- Power Query customer imports
-- PivotTable financial reporting
-- Power BI dashboard integration
-- Customer payment history reports
+- Automated invoice generation
+- Email-ready invoice export
+- Sales tax calculations
+- Customer payment forecasting
+- KPI dashboard for collections
 
 ---
 
@@ -161,5 +157,5 @@ This workbook demonstrates how Excel can improve billing operations by:
 
 **Peter Deister**
 
-This project demonstrates Excel automation, customer billing, accounts receivable, and business process improvement skills applicable to billing, accounting, finance, administrative, customer service, and office support positions.
-```
+This project demonstrates Microsoft Excel automation, customer billing, accounts receivable management, dashboard reporting, and business process improvement skills applicable to billing, accounting, finance, administrative, customer service, and office support roles.
+````
