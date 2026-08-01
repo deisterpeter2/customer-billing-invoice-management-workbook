@@ -1,4 +1,3 @@
-````markdown
 # Customer Billing & Invoice Management Workbook
 
 An Excel-based solution that streamlines customer billing, invoice tracking, payment processing, and accounts receivable reporting for small businesses.
