@@ -93,11 +93,14 @@ Interactive dashboard displaying:
 ### Dashboard
 ![Dashboard](images/dashboard.jpg)
 
-### Customer Records
-![Customers](images/customers.jpg)
+### Purchase Order Tracking
+![Customers](images/purchase-orders.jpg)
 
 ### Invoice Tracking
 ![Invoices](images/invoices.jpg)
+
+### Payment Tracking
+![Invoices](images/payments.jpg)
 
 ---
 ## Skills Demonstrated
