@@ -80,13 +80,13 @@ Interactive dashboard displaying:
 ![Dashboard](images/dashboard.jpg)
 
 ### Purchase Order Tracking
-![Customers](images/purchase-orders.jpg)
+![Purchase-Orders](images/purchase-orders.jpg)
 
 ### Invoice Tracking
 ![Invoices](images/invoices.jpg)
 
 ### Payment Tracking
-![Invoices](images/payments.jpg)
+![Payments](images/payments.jpg)
 
 ---
 ## Skills Demonstrated
